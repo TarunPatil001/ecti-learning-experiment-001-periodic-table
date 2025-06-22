@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    justify-items: center;
+}
+
+table,
+tr,
+th,
+td {
+    border: 1px inset gray;
+    text-align: center;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 8px;
+    padding: 20px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+
+table tr td {
+    padding: 20px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    border: none;
+}
+
+.lanthanide-row {
+    margin-top: 100px;
+}
+
+.blank-row td {
+    border: none;
+}
+
+td:hover{
+    cursor: pointer;
+}
+
+.reactive-nonmetals {
+    background-color: rgb(199, 218, 255);
+    color: blue;
+    text-shadow: 2px 2px 8px rgb(155, 179, 226);
+}
+
+.reactive-nonmetals:hover {
+    background-color: blue;
+    color: white;
+     opacity: 0.6;
+}
+
+.alkaline-metals {
+    background-color: rgb(255, 255, 150);
+    color: rgb(53, 53, 0);
+    text-shadow: 2px 2px 8px rgb(182, 182, 113);
+}
+
+.alkaline-metals:hover{
+    background-color: rgb(255, 255, 0);
+    /* color: white; */
+}
+
+.actinide {
+    background-color: rgb(255, 112, 234);
+    color: white;
+    text-shadow: 2px 2px 8px rgb(234, 181, 189);
+}
+
+.actinide:hover{
+    background-color: rgb(255, 2, 217)
+}
+
+.transition-metals {
+    background-color: rgb(255, 195, 202);
+    color: rgb(255, 60, 132);
+    text-shadow: 2px 2px 8px rgb(239, 169, 169);
+}
+
+.transition-metals:hover{
+    background-color: rgb(255, 60, 132);
+    color: white
+}
+
+.alkaline-earth-metals {
+    background-color: rgb(255, 233, 193);
+    color: orange;
+    text-shadow: 2px 2px 8px rgb(225, 206, 170);
+}
+
+.alkaline-earth-metals:hover{
+    background-color: orange;
+    color: white
+}
+
+.lanthanide {
+    background-color: rgb(154, 255, 107);
+    color: white;
+    text-shadow: 2px 2px 8px rgb(183, 181, 74);
+}
+
+.lanthanide:hover{
+    background-color: green;
+    color: white
+}
+
+.post-transition-metals {
+    background-color: rgb(176, 233, 255);
+    color: rgb(0, 156, 228);
+    text-shadow: 2px 2px 8px rgb(148, 196, 215);
+}
+
+.post-transition-metals:hover{
+    background-color: rgb(0, 156, 228);
+    color: white
+}
+
+.noble-gases {
+    background-color: rgb(255, 216, 250);
+    color: rgb(255, 0, 251);
+    text-shadow: 2px 2px 8px rgb(217, 183, 213);
+}
+
+.noble-gases:hover{
+    background-color: rgb(255, 0, 251);
+    color: white
+}
+
+.metalloids {
+    background-color: rgb(193, 255, 236);
+    color: rgb(0, 202, 142);
+    text-shadow: 2px 2px 8px rgb(164, 214, 199);
+}
+
+.metalloids:hover{
+    background-color: rgb(0, 202, 142);
+    color: white
+}
+
+.unknown {
+    background-color: rgb(202, 202, 202);
+    color: black;
+    text-shadow: 2px 2px 8px rgb(255, 255, 255);
+}
+
+.unknown:hover{
+    background-color: black;
+    color: white;
+    text-shadow: none
+}
